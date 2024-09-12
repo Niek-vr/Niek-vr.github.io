@@ -9,6 +9,6 @@ ul {
   
   a {
     display: block;
-    padding: 8px;
+    padding: -2px;
     background-color: #dddddd;
   }
