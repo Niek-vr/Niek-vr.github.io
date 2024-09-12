@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 1;
     padding: 0;
   }
   li {
@@ -9,6 +9,6 @@ ul {
   
   a {
     display: block;
-    padding: -2px;
+    padding: 10px;
     background-color: #dddddd;
   }
