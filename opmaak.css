@@ -12,14 +12,14 @@ ul {
   
   li a {
     display: block;
-    color: rgb(18, 28, 220);
+    color: rgb(255, 255, 255);
     text-align: left;
     padding: 16px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #ffffff;
+    background-color: #3508db;
   }
 
 body{
