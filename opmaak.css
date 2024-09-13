@@ -21,3 +21,7 @@ ul {
   li a:hover {
     background-color: #bcc1c8;
   }
+
+body{
+  background-color: grey;
+}
