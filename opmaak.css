@@ -34,7 +34,24 @@ img{
   text-align: center;
 }
 
-footer{
-  background-color: #1f94b8; 
-  height: 12vh;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f94b8;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ddd;
 }
