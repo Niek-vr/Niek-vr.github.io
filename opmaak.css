@@ -33,3 +33,8 @@ img{
 .center-text{
   text-align: center;
 }
+
+footer{
+  background-color: #1f94b8; 
+  height: 12vh;
+}
