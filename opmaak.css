@@ -1,57 +1,69 @@
+/* Stijl voor ongeordende lijsten */
 ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #1f94b8;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    padding: 18px 18px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #3508db;
-  }
-
-body{
-  background-color: rgb(233, 227, 232);
-  margin: 0px;
-}
-img{
-  padding: 16px 16px;
+  list-style-type: none; /* Geen opsommingstekens voor de lijst */
+  margin: 0px; /* Geen marge rond de lijst */
+  padding: 0px; /* Geen opvulling binnen de lijst */
+  overflow: hidden; /* Zorgt ervoor dat de lijst zich correct gedraagt */
+  background-color: #1f94b8; /* Achtergrondkleur van de lijst */
 }
 
-.center-text{
-  text-align: center;
+/* Stijl voor lijstitems */
+li {
+  float: left; /* Laat de lijstitems naast elkaar weergeven */
 }
 
+/* Stijl voor links in lijstitems */
+li a {
+  display: block; /* Zorgt ervoor dat de hele ruimte klikbaar is */
+  color: rgb(255, 255, 255); /* Kleur van de tekst (wit) */
+  text-align: left; /* Tekst uitgelijnd naar links */
+  padding: 18px 18px; /* Opvulling binnen de links */
+  text-decoration: none; /* Geen onderstreping voor de links */
+}
+
+/* Hover-effect voor links */
+li a:hover {
+  background-color: #3508db; /* Achtergrondkleur wanneer je over de link hovert */
+}
+
+/* Algemeen body-stijl */
+body {
+  background-color: rgb(233, 227, 232); /* Achtergrondkleur van de pagina */
+  margin: 0px; /* Geen marge rond de body */
+}
+
+/* Stijl voor afbeeldingen */
+img {
+  padding: 16px 16px; /* Opvulling rond afbeeldingen */
+}
+
+/* Klasse voor centreren van tekst */
+.center-text {
+  text-align: center; /* Centreert de tekst */
+}
+
+/* Stijl voor de voettekst */
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #1f94b8;
-  text-align: center;
-  padding: 20px 0;
-  color: white;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  position: fixed; /* Voettekst blijft onderaan de pagina, zelfs bij scrollen */
+  bottom: 0; /* Plaatst de voettekst onderaan */
+  left: 0; /* Plaatst de voettekst aan de linkerkant */
+  width: 100%; /* Voettekst beslaat de volledige breedte */
+  background-color: #1f94b8; /* Achtergrondkleur van de voettekst */
+  text-align: center; /* Centreert de tekst in de voettekst */
+  padding: 20px 0; /* Opvulling boven en onder in de voettekst */
+  color: white; /* Kleur van de tekst in de voettekst */
+  font-family: Arial, sans-serif; /* Lettertype voor de tekst */
+  font-size: 16px; /* Grootte van de tekst */
 }
 
+/* Stijl voor links in de voettekst */
 .footer a {
-  color: white;
-  text-decoration: underline;
+  color: white; /* Kleur van de links in de voettekst */
+  text-decoration: underline; /* Onderstreping voor de links in de voettekst */
 }
 
+/* Hover-effect voor links in de voettekst */
 footer a:hover {
-  color: #ddd;
+  color: #ddd; /* Kleur voor links in de voettekst bij hover */
+}
 }

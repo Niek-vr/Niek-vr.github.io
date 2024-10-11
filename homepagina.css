@@ -1,28 +1,35 @@
-body{
-    background-color: #1f94b8;
-    margin: 0px;
-img{
-    margin: 50px;
+/* Algemeen stijlen voor de body */
+body {
+  background-color: #1f94b8; /* Achtergrondkleur van de pagina */
+  margin: 0px; /* Geen marge rond de body */
 }
+
+/* Stijl voor afbeeldingen */
+img {
+  margin: 50px; /* Opvulling rondom afbeeldingen */
+}
+
+/* Stijl voor de voettekst */
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #a8b8bd;
-    text-align: center;
-    padding: 20px 0;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  .footer a {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  footer a:hover {
-    color: #ddd;
-  }
-  
+  position: fixed; /* Voettekst blijft onderaan de pagina, zelfs bij scrollen */
+  bottom: 0; /* Plaatst de voettekst onderaan */
+  left: 0; /* Plaatst de voettekst aan de linkerkant */
+  width: 100%; /* Voettekst beslaat de volledige breedte */
+  background-color: #a8b8bd; /* Achtergrondkleur van de voettekst */
+  text-align: center; /* Centreert de tekst in de voettekst */
+  padding: 20px 0; /* Opvulling boven en onder in de voettekst */
+  color: white; /* Kleur van de tekst in de voettekst */
+  font-family: Arial, sans-serif; /* Lettertype voor de tekst */
+  font-size: 16px; /* Grootte van de tekst */
+}
+
+/* Stijl voor links in de voettekst */
+.footer a {
+  color: white; /* Kleur van de links in de voettekst */
+  text-decoration: underline; /* Onderstreping voor de links in de voettekst */
+}
+
+/* Hover-effect voor links in de voettekst */
+footer a:hover {
+  color: #ddd; /* Kleur voor links in de voettekst bij hover */
+}
