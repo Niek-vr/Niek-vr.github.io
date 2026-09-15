@@ -1,7 +1,7 @@
 /* Algemeen stijlen voor de body */
 body {
   background-color: #1f94b8; /* Achtergrondkleur van de pagina */
-  margin: 0px; /* Geen marge rond de body */
+  margin: 1px; /* Geen marge rond de body */
 }
 
 /* Stijl voor afbeeldingen */
