@@ -29,7 +29,7 @@ li a:hover {
 /* Algemeen body-stijl */
 body {
   background-color: rgb(233, 227, 232); /* Achtergrondkleur van de pagina */
-  margin: 2px; /* Geen marge rond de body */
+  margin: 0px; /* Geen marge rond de body */
 }
 
 /* Stijl voor afbeeldingen */
