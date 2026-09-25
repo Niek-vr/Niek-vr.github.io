@@ -4,7 +4,7 @@ ul {
   margin: 0px; /* Geen marge rond de lijst */
   padding: 0px; /* Geen opvulling binnen de lijst */
   overflow: hidden; /* Zorgt ervoor dat de lijst zich correct gedraagt */
-  background-color: #483C32; /* Achtergrondkleur van de lijst */
+  background-color: #D2691E; /* Achtergrondkleur van de lijst */
 }
 
 /* Stijl voor lijstitems */
@@ -48,7 +48,7 @@ footer {
   bottom: 0; /* Plaatst de voettekst onderaan */
   left: 0; /* Plaatst de voettekst aan de linkerkant */
   width: 100%; /* Voettekst beslaat de volledige breedte */
-  background-color: #483C32; /* Achtergrondkleur van de voettekst */
+  background-color: #D2691E; /* Achtergrondkleur van de voettekst */
   text-align: center; /* Centreert de tekst in de voettekst */
   padding: 20px 0; /* Opvulling boven en onder in de voettekst */
   color: white; /* Kleur van de tekst in de voettekst */
