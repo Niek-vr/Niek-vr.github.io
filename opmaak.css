@@ -138,7 +138,7 @@ img {
 }
 /* Stijl voor de voettekst */
 footer {
-  position: fixed; /* Voettekst blijft onderaan de pagina, zelfs bij scrollen */
+  position: static; /* Voettekst blijft onderaan de pagina, zelfs bij scrollen */
   bottom: 0; /* Plaatst de voettekst onderaan */
   left: 0; /* Plaatst de voettekst aan de linkerkant */
   width: 100%; /* Voettekst beslaat de volledige breedte */
@@ -148,6 +148,7 @@ footer {
   color: white; /* Kleur van de tekst in de voettekst */
   font-family: Arial, sans-serif; /* Lettertype voor de tekst */
   font-size: 16px; /* Grootte van de tekst */
+ margin-top: 40px; /* Ruimte tussen de inhoud en de footer */
 }
 
 /* Stijl voor links in de voettekst */
