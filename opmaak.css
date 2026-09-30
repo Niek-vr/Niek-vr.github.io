@@ -49,9 +49,6 @@ body
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
 
 .dropdown-content {
   display: none;
@@ -73,11 +70,7 @@ body
 
 .dropdown-content a:hover {
   background-color: #ddd;
-}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}{
   background-color: rgb(249, 246, 240); /* Achtergrondkleur van de pagina */
   margin: 0px; /* Geen marge rond de body */
 }
