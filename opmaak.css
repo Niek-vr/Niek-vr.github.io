@@ -1,10 +1,19 @@
+/* Algemene stijl voor de hele website */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Lettertype van de website */
+  background-color: rgb(249, 246, 240); /* Achtergrondkleur van de pagina */
+  margin: 0px; /* Geen witte rand rondom de website */
+  padding: 0px; /* Geen opvulling rondom de website */
+}
+
+
 /* Stijl voor ongeordende lijsten */
 ul {
   list-style-type: none; /* Geen opsommingstekens voor de lijst */
   margin: 0px; /* Geen marge rond de lijst */
   padding: 0px; /* Geen opvulling binnen de lijst */
   overflow: hidden; /* Zorgt ervoor dat de lijst zich correct gedraagt */
-  background-color: #1B3B2B; /* Achtergrondkleur van de lijst */
+  background-color: #1B3B2B; /* Achtergrondkleur van de navigatiebalk */
 }
 
 /* Stijl voor lijstitems */
@@ -15,10 +24,14 @@ li {
 /* Stijl voor links in lijstitems */
 li a {
   display: block; /* Zorgt ervoor dat de hele ruimte klikbaar is */
+  box-sizing: border-box; /* Zorgt ervoor dat padding binnen de hoogte valt */
+  height: 54px; /* Alle knoppen krijgen dezelfde hoogte */
   color: rgb(255, 255, 255); /* Kleur van de tekst (wit) */
-  text-align: left; /* Tekst uitgelijnd naar links */
+  text-align: center; /* Tekst in het midden */
   padding: 18px 18px; /* Opvulling binnen de links */
   text-decoration: none; /* Geen onderstreping voor de links */
+  font-family: Arial, Helvetica, sans-serif; /* Hetzelfde lettertype op elke pagina */
+  font-size: 16px; /* Zelfde lettergrootte */
 }
 
 /* Hover-effect voor links */
@@ -26,88 +39,103 @@ li a:hover {
   background-color: #5C4033; /* Achtergrondkleur wanneer je over de link hovert */
 }
 
-/* Algemeen body-stijl */
 
 /* Navbar container */
 .navbar {
-  overflow: hidden;
-  font-family: Arial;
+  overflow: hidden; /* Zorgt ervoor dat de navbar correct wordt weergegeven */
+  background-color: #1B3B2B; /* Achtergrondkleur van de navbar */
+  font-family: Arial, Helvetica, sans-serif; /* Lettertype van de navbar */
+  margin: 0px; /* Geen marge rondom de navbar */
+  padding: 0px; /* Geen opvulling rondom de navbar */
 }
 
-/* Links inside the navbar */
+/* Links binnen de navbar */
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 18px 18px;
-  text-decoration: none;
+  float: left; /* Zet de links naast elkaar */
+  box-sizing: border-box; /* Padding valt binnen de ingestelde hoogte */
+  height: 54px; /* Zelfde hoogte als de andere knoppen */
+  font-size: 16px; /* Zelfde lettergrootte */
+  color: white; /* Witte tekst */
+  text-align: center; /* Tekst in het midden */
+  padding: 18px 18px; /* Opvulling binnen de links */
+  text-decoration: none; /* Geen onderstreping */
+  font-family: Arial, Helvetica, sans-serif; /* Hetzelfde lettertype */
 }
 
-/* The dropdown container */
+
+/* De container van de dropdown */
 .dropdown {
-  float: left;
-  overflow: hidden;
+  float: left; /* Zet de dropdown naast de andere knoppen */
+  overflow: hidden; /* Zorgt ervoor dat de dropdown correct wordt weergegeven */
+  height: 54px; /* Zelfde hoogte als de andere knoppen */
 }
 
-/* Dropdown button */
+/* De knop van de dropdown */
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 18px 18px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  box-sizing: border-box; /* Padding valt binnen de hoogte */
+  height: 54px; /* Zelfde hoogte als de andere knoppen */
+  font-size: 16px; /* Zelfde lettergrootte */
+  border: none; /* Geen rand om de knop */
+  outline: none; /* Geen rand wanneer je de knop selecteert */
+  color: white; /* Witte tekst */
+  padding: 18px 18px; /* Opvulling binnen de knop */
+  background-color: inherit; /* Zelfde achtergrondkleur als de navbar */
+  font-family: Arial, Helvetica, sans-serif; /* Hetzelfde lettertype */
+  margin: 0px; /* Geen marge */
+  cursor: pointer; /* Muis verandert in een handje */
 }
 
 
-
-
-/* Dropdown content (hidden by default) */
+/* Dropdown-menu (standaard verborgen) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  display: none; /* Dropdown is standaard niet zichtbaar */
+  position: absolute; /* Plaatst het menu boven de andere inhoud */
+  background-color: #f9f9f9; /* Achtergrondkleur van het dropdown-menu */
+  min-width: 160px; /* Minimale breedte van het dropdown-menu */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Schaduw rondom het menu */
+  z-index: 1000; /* Zorgt dat het menu boven andere elementen komt */
+  margin: 0px; /* Geen marge tussen navbar en dropdown */
+  padding: 0px; /* Geen extra ruimte binnen het menu */
 }
 
-/* Links inside the dropdown */
+
+/* Links binnen het dropdown-menu */
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 18px 18px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+  float: none; /* Links staan onder elkaar */
+  display: block; /* De hele ruimte is klikbaar */
+  box-sizing: border-box; /* Padding valt binnen de hoogte */
+  width: 100%; /* Link gebruikt de volledige breedte */
+  height: 54px; /* Zelfde hoogte als de andere knoppen */
+  color: black; /* Zwarte tekst */
+  padding: 18px 18px; /* Opvulling binnen de links */
+  text-decoration: none; /* Geen onderstreping */
+  text-align: left; /* Tekst links uitlijnen */
+  font-family: Arial, Helvetica, sans-serif; /* Zelfde lettertype */
+  font-size: 16px; /* Zelfde lettergrootte */
 }
 
-/* Add a grey background color to dropdown links on hover */
+
+/* Hover-effect voor links in het dropdown-menu */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ddd; /* Grijze achtergrond wanneer je erover hovert */
 }
 
-/* Show the dropdown menu on hover */
+
+/* Laat het dropdown-menu zien wanneer je over de dropdown gaat */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: block; /* Dropdown-menu wordt zichtbaar */
 }
-  background-color: rgb(249, 246, 240); /* Achtergrondkleur van de pagina */
-  margin: 0px; /* Geen marge rond de body */
-}
+
 
 /* Stijl voor afbeeldingen */
 img {
-  padding: 16px 16px; /* Opvulling rond afbeeldingen */
+  padding: 16px 16px; /* Opvulling rondom afbeeldingen */
 }
 
-/* Klasse voor centreren van tekst */
+/* Klasse voor het centreren van tekst */
 .center-text {
   text-align: center; /* Centreert de tekst */
 }
-
 /* Stijl voor de voettekst */
 footer {
   position: fixed; /* Voettekst blijft onderaan de pagina, zelfs bij scrollen */
