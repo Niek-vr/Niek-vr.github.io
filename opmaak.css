@@ -36,7 +36,7 @@ li a {
 
 /* Hover-effect voor links */
 li a:hover {
-  background-color: #5C4033; /* Achtergrondkleur wanneer je over de link hovert */
+  background-color: rgb(249, 246, 240) ; /* Achtergrondkleur wanneer je over de link hovert */
 }
 
 
