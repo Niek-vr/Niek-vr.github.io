@@ -36,7 +36,7 @@ li a {
 
 /* Hover-effect voor links */
 li a:hover {
-  background-color: rgb(249, 246, 240) ; /* Achtergrondkleur wanneer je over de link hovert */
+  background-color: #5dd55d ; /* Achtergrondkleur wanneer je over de link hovert */
 }
 
 
@@ -79,7 +79,7 @@ li a:hover {
   outline: none; /* Geen rand wanneer je de knop selecteert */
   color: white; /* Witte tekst */
   padding: 18px 18px; /* Opvulling binnen de knop */
-  background-color: rgb(249, 246, 240); /* Zelfde achtergrondkleur als de navbar */
+  background-color: #1B3B2B; /* Zelfde achtergrondkleur als de navbar */
   font-family: Arial, Helvetica, sans-serif; /* Hetzelfde lettertype */
   margin: 0px; /* Geen marge */
   cursor: pointer; /* Muis verandert in een handje */
