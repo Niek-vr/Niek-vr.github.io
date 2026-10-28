@@ -3,7 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif; /* Lettertype van de website */
   background-color: rgb(249, 246, 240); /* Achtergrondkleur van de pagina */
   margin: 0px; /* Geen witte rand rondom de website */
-  padding: 0px; /* Geen opvulling rondom de website */
+  padding: 20px; /* Geen opvulling rondom de website */
 }
 
 
